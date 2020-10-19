@@ -1,0 +1,118 @@
+.welcomeDiv{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../media/Picture1.jpg);
+    background-size: cover;
+}
+
+.welcomeContent{
+    position: absolute;
+    top: 140px;
+    left: 5vw;
+    height: 50vh;
+    width:30%;
+    color: #ffffff;
+    display: block;
+}
+
+.welcomeContent h1{
+    font-size: 3.5rem;
+}
+
+.welcomeContent p{
+    font-size: 1rem;
+    margin-bottom: 5vh;
+}
+
+.welcomeContent a{
+    display: block;
+    margin: 5px;
+}
+
+
+.homeContentDiv{
+    padding: 10px;
+    background-image: url(../media/emirates1.jpg);
+    background-size: cover;
+}
+.homeGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.item1{
+    grid-column: 1/3;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.item1picture{
+    grid-column: 1/3;
+}
+.item1picture img{
+    height: 100%;
+    width: 100%;
+}
+.item1content{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3/4;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.item1description{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.item2{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../media/Ozil.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.item3{
+    background: url("../media/PL-Lion.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.item3:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../media/PL-Lion.png);
+    background-size: contain;
+    background-position: center;
+    cursor:pointer;
+}
+
+.item4{
+    background: url("../media/europa-league.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.item4:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../media/europa-league.png);
+    background-size: contain;
+    background-position: center;
+    cursor:pointer;
+}
+
+.item5{
+    background: transparent;
+    padding: 10px;
+}

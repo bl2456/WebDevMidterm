@@ -1,0 +1,78 @@
+.historyContent{
+    height: auto;
+    background: url(../media/arsenal_crest.jpg);
+    background-size: contain;
+    padding: 120px 0;
+}
+
+.historyContent>h1{
+    background: rgba(0,0,0,0.5);
+    color: #ffffff;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.historyItem{
+    display: grid;
+    height: 40%;
+    background: #f1f2f3;
+    margin: 0 10vw 5vh 10vw;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.gridRight{
+    grid-template-columns: 55% 45%;
+}
+
+.gridLeft{
+    grid-template-columns: 45% 55%;
+}
+
+.historyItemDescription{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.historyItemDescription>p{
+    margin-bottom: 20px;
+}
+
+.historyItemImage{
+    background:black;
+}
+
+#woolichArsenalImage{
+    background: url('../media/woolwich_arsenal_1890.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#henryNorrisImage{
+    background: url('../media/norris_henry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#herbertChapmanTeamImage{
+    background: url('../media/herbertchapmanteam.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#arsenal1971Image{
+    background: url('../media/arsenal_1971.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#georgeGrahamImage{
+    background: url('../media/graham_george_1986.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#wengerTrophyImage{
+    background: url('../media/wenger_trophies.jpg');
+    background-position: center;
+    background-size: cover;
+}

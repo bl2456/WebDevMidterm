@@ -1,0 +1,56 @@
+.teamContent{
+    height: auto;
+    background: linear-gradient(rgba(219, 24, 24, 0.521),rgba(0, 0, 0, 0.5)), url(../media/Picture5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.playerGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 250px;
+    grid-row-gap: 10px;
+    margin: 0 10vh 10vh 10vh;
+}
+
+.playerCard{
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.cardContentWrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    height:100%;
+    width:100%;
+}
+.cardDescriptionBox{
+    height: 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    font-size: 1.8rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.playerCard:hover {
+    cursor: pointer;
+    background: rgba(0 ,0 ,0 ,0.5);
+}
+
+.positionHeader{
+    color: #ffffff;
+    text-shadow: black 10px 10px 10px;
+    margin-left: 10vh;
+}
+
+.cardLink{
+    display: block;
+    height: 100%;
+    width:100%;
+    text-decoration: none;
+}
