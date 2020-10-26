@@ -13,10 +13,6 @@ const AboutDropdown = [
         name: "Honors",
         path: "/honors",
     },
-    {
-        name: "News",
-        path: "/news",
-    }
 ];
 
 const PersonnelDropdown = [

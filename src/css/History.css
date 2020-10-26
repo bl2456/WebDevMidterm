@@ -1,6 +1,6 @@
 .historyContent{
     height: auto;
-    background: url(../media/arsenal_crest.jpg);
+    background: #a33636;
     background-size: contain;
     padding: 120px 0;
 }
@@ -75,4 +75,64 @@
     background: url('../media/wenger_trophies.jpg');
     background-position: center;
     background-size: cover;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 750px){
+    .historyContent{
+        height: auto;
+        background: #a33636;
+        background-size: contain;
+        padding: 120px 0 80px 0;
+    }
+    .historyContent>h1{
+        background: rgba(0,0,0,0.5);
+        color: #ffffff;
+        margin-right: 3vw;
+        margin-left: 3vw;
+        padding: 10px;
+    }
+    .historyItem{
+        display: flex;
+        flex-direction: column;
+        background: #f1f2f3;
+        margin: 0 5vw 5vh 5vw;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    }
+    #woolichArsenalImage{
+        order: -1;
+        height: 200px;
+        width: 100%;
+    }
+
+    #henryNorrisImage{
+        height: 200px;
+        width: 100%;
+    }
+    
+    #herbertChapmanTeamImage{
+        order: -1;
+        height: 200px;
+        width: 100%;
+    }
+
+    #arsenal1971Image{
+        height: 200px;
+        width: 100%;
+    }
+
+    #georgeGrahamImage{
+        order: -1;
+        height: 200px;
+        width: 100%;
+    }
+
+    #wengerTrophyImage{
+        height: 200px;
+        width: 100%;
+    }
+    
+    .historyItemDescription{
+        font-size: 1rem;
+        padding: 20px;
+    }
 }

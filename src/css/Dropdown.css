@@ -27,3 +27,14 @@
     height: 100%;
     width: 100%;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 750px){
+    .dropdown-menu{
+        display: none;
+        width: 100px;
+        position: absolute;
+        top: 80px;
+        list-style: none;
+        text-align: start;
+    }
+}

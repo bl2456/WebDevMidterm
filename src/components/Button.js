@@ -15,12 +15,12 @@ const Button = ({
     const actualButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const actualButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
     return (
-        <Link to={path} className='btn-mobile'>
-            <button 
-                className={`btn ${actualButtonStyle} ${actualButtonSize}`}>
+        <button 
+            className={`btn ${actualButtonStyle} ${actualButtonSize}`}>
+                <Link to={path} className='btn-mobile'>
                     {name}
-            </button>
-        </Link>
+                </Link>
+        </button>
     );
 }
 

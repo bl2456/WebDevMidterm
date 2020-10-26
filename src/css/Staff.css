@@ -1,0 +1,49 @@
+.staffContent{
+    padding: 100px 15vw 80px 15vw;
+    background:  #f1f2f3;
+}
+
+.staffSection{
+    display: block;
+    margin: 5vh 0;
+}
+
+.staffSection h1{
+    border-top: #e72525 solid 3px;
+    border-bottom: #e72525 solid 3px;
+    font-size: 2rem;
+}
+
+
+.staffFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.staffCard{
+    background: #ffffff;
+    width: 300px;
+    min-height: 400px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+.staffCard img{
+    height:auto;
+    width: 100%;
+}
+
+.role {
+    color: #e72525;
+    font-size: 1.5rem;
+}
+
+.name {
+    color: green;
+    font-size: 1.2rem;
+}
+
+.staffDescription {
+    padding: 10px;
+}

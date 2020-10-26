@@ -1,0 +1,103 @@
+.premierLeagueContainer{
+    position:relative;
+    top: 80px;
+    min-height: 100vh;
+    width: 100%;
+    background: #3D1958;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 120px;
+}
+
+.premierLeagueContainer .tableHeading {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.premierLeagueTable{
+    width: 70%;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+
+.premierLeagueTable tr{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+
+.premierLeagueTable td{
+    padding: 8px;
+    border: 1px solid #ffffff9a;
+}
+
+.premierLeagueTable th{
+    padding:12px;
+    background-color: #000000a8;
+}
+
+.europaLeagueContainer{
+    position:relative;
+    min-height: 100vh;
+    width: 100%;
+    background: url('../media/europa-league2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+.europaLeagueContainer .tableHeading{
+    color: #ffffff;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0.5);
+}
+.europaLeagueTable{
+    width: 70%;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+
+.europaLeagueTable tr{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+
+.europaLeagueTable td{
+    padding: 8px;
+    border: 1px solid #ffffff9a;
+}
+
+.europaLeagueTable th{
+    padding:12px;
+    background-color: #eb9320;
+}
+
+#position1{
+    background-color: #dacf31ee;
+}
+#position2, #position3, #position4{
+    background: #00088E;
+}
+
+#position5, #position6, #position7{
+    background: #eb9320;
+}
+
+#position18, #position19, #position20{
+    background: #333333;
+}
+
+#arsenalRow{
+    background: rgb(221, 31, 31);
+}
+
+#positionE1, #positionE2{
+    background: #3a46f1;
+}

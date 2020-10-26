@@ -35,7 +35,7 @@
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
-    text-shadow: white 10px 10px 20px;
+    text-shadow: white 1px 1px 8px;
 }
 
 .nav-links:hover{
@@ -49,4 +49,29 @@
 
 .navbar-logo img{
     height:60px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 750px){
+    .navbar {
+        background-color: #d30c13e1;
+        position: absolute;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        z-index: 99;
+    }
+
+    .nav-menu{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 2vw;
+        text-align: center;
+        list-style: none;
+        width: 70vw;
+        justify-content: end;
+        margin: 0 5vw;
+    }
 }

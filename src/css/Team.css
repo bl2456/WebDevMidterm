@@ -30,17 +30,20 @@
 .cardDescriptionBox{
     height: 15%;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #ffffff;
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
 }
 
 .playerCard:hover {
     cursor: pointer;
-    background: rgba(0 ,0 ,0 ,0.5);
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
+
+
 
 .positionHeader{
     color: #ffffff;

@@ -1,8 +1,8 @@
 .playerContainer{
-    height: 88vh;
+    height: 100vh;
     background: url(../media/background1.png);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     padding: 120px 5vw 0 5vw;
 }
 
@@ -46,4 +46,42 @@
 }
 
 
+@media only screen and (min-width: 375px) and (max-width: 750px){
+    .playerContainer{
+        height: 100vh;
+        background: #af1510;
+        background-size: cover;
+        background-position: center center;
+        padding: 120px 5vw 0 5vw;
+    }
 
+    .playerBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .playerPicture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .playerPicture img{
+        height: auto;
+        width: 100%;
+    }
+    .playerDescription{
+        background: rgba(0 ,0 ,0 ,0.5);
+        color: white;
+        font-size: 1rem;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5vw 5vw;
+        height: 50vh;
+    }
+    
+    .descriptionSummary{
+        font-size: 1rem;
+    }
+}

@@ -1,23 +1,32 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import "../../css/HomePage.css";
-import image1 from "../../media/Coaches.jpg";
+import image0 from "../../media/Picture1.jpg";
+//import image1 from "../../media/Coaches.jpg";
 import Button from "../Button";
 
 const HomePage = () => {
     return(
-        <>
+        <div className="pageContainer">
             <div className="welcomeDiv">
+                {/*<img src={image0} id="heroImage"></img>*/}
                 <div className="welcomeContent">
-                    <h1>Welcome to Arsenal</h1>
-                    <p>
-                        Founded in 1886, Arsenal Football Club is a professional football club based in Islington, London, England, 
-                        that plays in the Premier League, the top flight of English football. Feel free to browse.
-                    </p>
-                    <Button name="News" path="/News" buttonStyle="btn-secondary" buttonSize="btn-large"/>
-                    <Button name="History" path="/History" buttonStyle="btn-secondary" buttonSize="btn-large"/>
-                    <Button name="Honors" path="/Honors" buttonStyle="btn-secondary" buttonSize="btn-large"/>
+                    <div className="leftSection">
+                        <h1>Welcome to Arsenal</h1>
+                        <p>
+                            Founded in 1886, Arsenal Football Club is a professional football club based in Islington, London, England, 
+                            that plays in the Premier League, the top flight of English football. Feel free to browse.
+                        </p>
+                    </div>
+                    <div className="rightSection">
+                        <Button name="History" path="/History" buttonStyle="btn-secondary" buttonSize="btn-large"/>
+                        <Button name="Honors" path="/Honors" buttonStyle="btn-secondary" buttonSize="btn-large"/>
+                        <Button name="Staff" path="/Staff" buttonStyle="btn-secondary" buttonSize="btn-large"/>
+                        <Button name="Team" path="/Team" buttonStyle="btn-secondary" buttonSize="btn-large"/>
+                    </div>
                 </div>
             </div>
+            {/*
             <div className="homeContentDiv">
                 <div className="homeGrid">
                     <div className="item1">
@@ -36,12 +45,15 @@ const HomePage = () => {
                     <div className="item2">
                         <Button name="Meet the Players" path="/Team" buttonStyle="btn-secondary"/>
                     </div>
-                    <div className="item3"></div>
-                    <div className="item4"></div>
+                    <Link to='/CurrentSeason'>
+                        <div className="item3"></div>
+                    </Link>
+                    <div className="item4"><Link to='/CurrentSeason'></Link></div>
                     <div className="item5"></div>
                 </div>
             </div>
-        </>
+            */}
+        </div>
     )
 }
 
